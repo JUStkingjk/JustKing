@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        app:title="主界面"
+        app:titleTextColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/toolBar"
+        android:background="@color/black"
+        android:src="@mipmap/ic_eye" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:background="@color/black"
+        android:text="202044508212 曾世缘"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:alignmentMode="alignMargins"
+        >
+
+        <ImageButton
+            android:id="@+id/imageBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_info_24"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            />
+
+        <ImageButton
+            android:id="@+id/imageBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/ic_baseline_storage_24" />
+
+        <ImageButton
+            android:id="@+id/imageBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/ic_client" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="课设一"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="SQLite"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="WIFI"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/imageBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/ic_baseline_block_24"
+            />
+
+        <ImageButton
+            android:id="@+id/imageBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/ic_baseline_block_24" />
+
+        <ImageButton
+            android:id="@+id/imageBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/ic_baseline_block_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="@string/textView_null"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="@string/textView_null"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="@string/textView_null"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+    </GridLayout>
+
+
+</RelativeLayout>

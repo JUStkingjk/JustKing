@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="text show" />
+
+    <Button
+        android:id="@+id/btn_cencel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView1"
+        android:backgroundTint="@color/black"
+        android:onClick="click_cencel"
+        android:text="CENCEL"
+        android:textSize="30dp" />
+</RelativeLayout>

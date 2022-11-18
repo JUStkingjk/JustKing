@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar_info"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        app:title="module001"
+        app:titleTextColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edt001"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/toolBar_info"
+        android:autofillHints=""
+        android:paddingStart="20sp"
+        android:textSize="60sp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_jp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt001"
+        android:backgroundTint="@color/black"
+        android:onClick="click_jump"
+        android:text="提交数据，跳转页面" />
+    <Button
+        android:id="@+id/btn_cc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_jp"
+        android:backgroundTint="@color/black"
+        android:text="返回主菜单"
+        android:onClick="backToMainPage"
+        />
+
+
+
+
+</RelativeLayout>

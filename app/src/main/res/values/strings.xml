@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">JustKing</string>
+    //toolBar
+    <string name="toolBar_main">toolBar</string>
+    <string name="toolBar_info">toolBar</string>
+    <string name="toolBar_netty">toolBar</string>
+    <string name="toolBar_SQLite">toolBar</string>
+
+    //imageView
+    <string name="imageView">image</string>
+
+    //editText
+    <string name="edt001">edittext001</string>
+    <string name="inputBar1">主机IP</string>
+    <string name="inputBar2">端口</string>
+
+    //textView
+    <string name="textView">text</string>
+    <string name="textView1">text</string>
+    <string name="textView_null">空</string>
+
+    //imageButton
+    <string name="imageBtn1">client</string>
+    <string name="imageBtn2">x</string>
+    <string name="imageBtn3">xx</string>
+    <string name="imageBtn4">xxx</string>
+    <string name="imageBtn5">xxxx</string>
+    <string name="imageBtn6">xxxxx</string>
+
+    //button
+    <string name="btn_cencel">cencel</string>
+    <string name="btn_cc">返回主菜单</string>
+    <string name="btn_jp">跳转</string>
+    <string name="btn_more">more</string>
+    <string name="btn_insert">button_insert</string>
+    <string name="btn_delete">button_delete</string>
+    <string name="btn_update">button_</string>
+    <string name="btn_query">button_query</string>
+    <string name="btn_submit">button_</string>
+
+    //
+    <string-array name="planets_array">
+        <item>add</item>
+        <item>delete</item>
+        <item>update</item>
+        <item>check</item>
+    </string-array>
+
+    <string name="title_activity_main2">MainActivity2</string>
+
+</resources>
